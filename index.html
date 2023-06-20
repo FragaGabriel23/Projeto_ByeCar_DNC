@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByeCar</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Script Carousel e Modal -->
+    <script src="index.js" defer></script>
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Raleway:wght@400;500;700;800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- MODAL Honda CB 500X -->
+    <div class="modal" id="myModal0">
+        <div class="modal-content">
+            <span class="close" onclick="fechar()">&times;</span>
+            <div class="modalMain">
+                <h1>Honda CB 500X</h1>
+                <h2>O câmbio de 6 marchas da CB 500X oferece maior confiança e performance na pilotagem, tornando as
+                    subidas de marcha mais leves e as reduções mais suaves!</h2>
+                <img src="img/cb.png" alt="Honda CB 500X">
+                <button>Quero Assinar!</button>
+            </div>
+        </div>
+    </div>
+    <!-- MODAL Scooter Elétrica Voltz EV1 -->
+    <div class="modal" id="myModal1">
+        <div class="modal-content">
+            <span class="close" onclick="fechar()">&times;</span>
+            <div class="modalMain">
+                <h1>Scooter Elétrica Voltz EV1</h1>
+                <h2>A EV1 Sport é a evolução do nosso primeiro modelo de scooter. A atualização garante um aumento
+                    significativo em autonomia, velocidade e tecnologia. A nova bateria fornece à nossa scooter elétrica
+                    energia para percorrer percursos mais longos mais rapidamente. Assim, a EV1 Sport representa a nossa
+                    missão de sempre avançar e evoluir.</h2>
+                <img src="img/voltz.png" alt="Scooter Elétrica Voltz EV1">
+                <button>Quero Assinar!</button>
+            </div>
+        </div>
+    </div>
+
+    <nav>
+        <img src="img/logo.svg" alt="Logo">
+        <h1>ByeCar</h1>
+    </nav>
+
+    <main>
+        <div class="header">
+            <h2>Ter <strong>uma moto</strong> por assinatura<br>nunca foi tão fácil!</h2>
+            <img src="img/image.png" alt="Imagem">
+        </div>
+        <div class="main">
+            <div>
+                <h2>Conheça nossas <span class="stg"><strong>motos</strong></span>!</h2>
+            </div>
+            <div class="containerSlider">
+                <button id="prev"><img src="img/arrowLT.svg" alt="Voltar"></button>
+                <div class="slider">
+                    <div class="card">
+                        <h3>Honda CB 500X</h3>
+                        <img src="img/cb.png" alt="CB 500X">
+                        <h4>A partir de</h4>
+                        <span>R$619,90</span>
+                        <h5>Plano de 30 meses</h5>
+                    </div>
+                    <div class="card on">
+                        <h3>Scooter Elétrica Voltz EV1</h3>
+                        <img src="img/voltz.png" alt="Voltz EV1">
+                        <h4>A partir de</h4>
+                        <span>R$619,90</span>
+                        <h5>Plano de 30 meses</h5>
+                    </div>
+                </div>
+                <button id="next"><img src="img/arrowRT.svg" alt="Avançar"></button>
+            </div>
+            <div class="but">
+                <button id="myBtn">Saiba mais</button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
