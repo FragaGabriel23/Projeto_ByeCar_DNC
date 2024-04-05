@@ -3,7 +3,7 @@ const slider = document.querySelectorAll('.card');
 const btnPrev = document.getElementById('prev');
 const btnNext = document.getElementById('next');
 
-let currentSlide = 0;
+let currentSlide = 1;
 var modal = document.getElementById(`myModal${currentSlide}`)
 
 const hideSlider = () => {
